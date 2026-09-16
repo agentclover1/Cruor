@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "cruor",
+	"version": "${version}",
+	"name": "cruor",
+	"description": "Gothic horror mod, sort of inspired by Bloodborne.",
+	"authors": [
+		"AgentClover"
+	],
+	"contact": {
+		"homepage": "https://clover.is-a.dev",
+		"sources": "https://github.com/agentclover1/Cruor"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cruor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.agentclover.Cruor"
+		],
+		"client": [
+			"dev.agentclover.client.CruorClient"
+		]
+	},
+	"mixins": [
+		"cruor.mixins.json",
+		{
+			"config": "cruor.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

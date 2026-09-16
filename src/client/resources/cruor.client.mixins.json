@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "dev.agentclover.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"restrictions.DisableChatKeyMixin",
+		"restrictions.DisableChatRenderMixin",
+		"restrictions.LockFirstPersonMixin",
+		"restrictions.HideNametagsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
