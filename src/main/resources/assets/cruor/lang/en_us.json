@@ -1,0 +1,9 @@
+{
+  "itemGroup.cruor.cruor_blocks_group": "Cruor: Building",
+  "itemGroup.cruor.cruor_items_group": "Cruor: Items",
+  "itemGroup.cruor.cruor_functional_group": "Cruor: Functional",
+
+  "item.cruor.cleaver": "Cursed Cleaver",
+  "block.cruor.test2": "Test 2",
+  "block.cruor.test3": "Test 3"
+}
